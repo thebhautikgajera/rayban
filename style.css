@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#back{
+    height: 100vh;
+    width: 100%;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#workingArea{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    position: relative;
+
+}
+
+#nav{
+    width: 100%;
+    padding: 2.3vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nleft img{
+    height: 8vh;
+}
+
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+#nleft a{
+    pointer-events: all;
+    text-decoration: none;
+    color: white;
+    font-family: "Lato";
+    letter-spacing: 0.21vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#nright{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+#nright a{
+    pointer-events: all;
+    text-decoration: none;
+    color: white;
+    font-family: "Lato";
+    letter-spacing: 0.21vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#hero{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    justify-content: space-between;
+}
+
+#heroLeft{
+    min-width: 50%;
+    margin-top: 6vw;
+}
+
+#heroLeft .elem{
+    overflow: hidden;
+    height: 9vw;
+    position: relative;
+}
+
+#heroLeft .elem h1:nth-child(1){
+    top: 0;
+}
+
+#heroLeft .elem h1{
+    top: 100%;
+    left: 0;
+    position: absolute;
+    line-height: .9;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 10vw;
+    text-transform: uppercase;
+
+}
+
+#heroLeft button{
+    text-transform: uppercase;
+    pointer-events: all;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3vw;
+    margin-top: 1vw;
+    padding: 0.9vw 4vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#heroRight{
+    margin-top: 6vw;
+    width: 20%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#heroRight p{
+    text-align: right;
+    font-size: 1.2vw;
+
+}
+
+#heroRight #img{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    width: 100%;
+    height: 10vw;
+    background-image: url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vZGVsfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.7vw;
+}
+
+#heroRight p:nth-child(3){
+    margin-bottom: 5vw;
+}
